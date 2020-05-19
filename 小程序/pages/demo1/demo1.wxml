@@ -1,0 +1,9 @@
+<!--pages/demo1/demo1.wxml-->
+<text>狗相对于人类多少岁？</text>
+<view>狗的年龄是</view>
+<view wx:if="{{dog_data <= 2}}">
+  {{dog_data * 10.5}}
+</view>
+<view wx:else>
+  {{21 + (dog_data - 2) * 4}}
+</view>

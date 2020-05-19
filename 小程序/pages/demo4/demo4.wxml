@@ -1,0 +1,7 @@
+<!--pages/demo4/demo4.wxml-->
+<text>图片切换</text>
+<view>
+  <button bindtap="handleClick">点击切换</button>
+  <!-- <image src="../../image/b1.jpg"></image> -->
+  <image src="{{image_url}}"></image>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/demo/demo.wxml-->
+<text>公里计费</text>
+<view wx:if="{{moil <= 3}}">
+  {{10}}元
+</view>
+<view wx:elif="{{moil <= 10}}">
+  {{10 + (moil - 3) * 2}}元
+</view>
+<view wx:else>
+  {{10 + (10 - 3) * 2 + (moil - 10) * 3}}元
+</view>

@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 100rpx;
+}
+.nav .nav-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

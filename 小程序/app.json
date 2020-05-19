@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo/demo",
+    "pages/demo4/demo4",
+    "pages/demo3/demo3",
+    "pages/demo2/demo2",
+    "pages/logs/logs",
+    "pages/demo1/demo1",
+    "pages/demo5/demo5"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ddffff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home-o.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "编辑",
+      "iconPath": "image/edit.png",
+      "selectedIconPath": "image/edit-o.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "购物车",
+      "iconPath": "image/cart.png",
+      "selectedIconPath": "image/edit-o.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "导航",
+      "iconPath": "image/navigator.png",
+      "selectedIconPath": "image/navigator-o.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "个人",
+      "iconPath": "image/person.png",
+      "selectedIconPath": "image/person-o.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

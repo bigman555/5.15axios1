@@ -1,0 +1,14 @@
+<!--pages/demo3/demo3.wxml-->
+<text>导航栏</text>
+<view class="nav">
+  <view wx:for="{{nav}}" class="nav-item" wx:key="index">
+    {{index}} : {{item}} 
+  </view>
+</view>
+<!--json的for-->
+<view class="nav">
+  <view wx:for="{{navobject}}" class="nav-item" wx:key="index">
+    {{index}} : {{item.text}} 
+  </view>
+</view>
+

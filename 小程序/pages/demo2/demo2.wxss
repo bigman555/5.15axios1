@@ -1,0 +1,6 @@
+/* pages/demo2/demo2.wxss */
+text{
+  font-size: 50rpx;
+  font-weight: 600;
+  
+}
